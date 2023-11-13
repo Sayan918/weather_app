@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div style=" background-image: url('weather3.jpg')" class=" w-full h-screen">
+
+        <div
+            class="navbar bg-gradient-to-r from-amber-900 shadow-2xl -2xl m-2 p-4 rounded-2xl backdrop-blur-3xl flex flex-row ">
+
+            <h1 class=" basis-3/4 text-4xl font-extrabold italic text-transparent space-x-2">WEATHER APP</h1>
+
+            <input type="text" class="basis-3/16 rounded-2xl p-2 ring-2 hover:ring-4 ring-cyan-900 hover:ring-red-500 "
+                placeholder="Enter City Name">
+            <button class="basis-1/16 ring-2 mx-2 px-5 rounded-2xl bg-white hover:bg-yellow-400"> Search</button>
+        </div>
+        <div style=" background-image: url('weather4.jpg')"
+            class=" container mx-auto my-12 w-4/5 h-4/5   ">
+            <div class="flex flex-row mt-10 mb-4 ">
+                <div class="basis-2/3 ">
+                    <h1 class="  text-7xl text-white mx-16 my-6 italic">LONDON</h1>
+                    <h1 class=" text-2xl text-white mx-16 my-3  italic" id="date">23rd december 2022 </h1>
+                    <div class="flex flex-row ">
+                        <div class="basis-1/4 " id="weather">
+                            <!-- <img class="mx-7 " src="http://openweathermap.org/img/wn/10d@2x.png"> -->
+                            <!-- <h1 class=" text-2xl text-white text-center italic " id="description"></h1> -->
+                        </div>
+                        <div class="basis-1/4">
+
+                            <h1 class=" text-2xl text-white text-center mt-8 mx-2 italic "  id="wind">1.5 m/s NWH</h1>
+                            <h1 class=" text-2xl text-white text-center mx-2 italic" id ="Humidity">Humidity : 64% </h1>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="basis-1/3">
+                    <diV class="flex flex-row  m-7">
+                        <h1 class=" basis-9/12  text-9xl text-white  italic text-right " id="Temp"> 27 </h1>
+                        <h1 class=" basis-1/12 text-3xl text-white italic mt-20 "> ℃ </h1>
+
+                    </diV>
+
+                    <h1 class=" text-2xl text-white m-3 italic text-center" id="feel"> Feels Like 30℃ </h1>
+                    <h1 class=" text-5xl text-white m-3 italic text-center" id ="divide">20/30</h1>
+                </div>
+
+            </div>
+            <div class="flex flex-row">
+                <h1 class="basis-1/12 text-2xl text-white text-right italic"> Hourly</h1>
+                <h1 class="basis-1/12 text-2xl text-slate-500 hover:text-white text-right italic"> Daily</h1>
+            </div>
+            <div class="flex flex-row mt-4">
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+                <div class="basis-1/6">
+                    <h1 class=" text-2xl text-white text-center italic ">NOW </h1>
+                    <img class="ml-9 my-0 " src="http://openweathermap.org/img/wn/10d@2x.png">
+                    <h1 class=" text-lg text-white text-center italic ">Modarate Rain</h1>
+                    <h1 class=" text-2xl text-white text-center italic ">28℃</h1>
+                </div>
+           
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
